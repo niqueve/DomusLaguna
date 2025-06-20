@@ -2,7 +2,9 @@ import React from "react";
 import styled from 'styled-components';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import ContactInfo from '../components/ContactInfo'
+import HeroSection from "../components/HeroSection";
+import ContactInfo from '../components/ContactInfo';
+
 
 
 const Main = styled.main `
@@ -10,10 +12,10 @@ const Main = styled.main `
 `;
 
 const Landing = () => {
-
     return(
         <>
             <Header />
+            <HeroSection />
             <Main>
                 <ContactInfo />
             </Main>
