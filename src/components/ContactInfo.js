@@ -82,10 +82,10 @@ const ContactInfo = () => {
           <h3>Links rápidos</h3>
           <ul>
             <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Políticas de privacidade</a></li>
-            <li><a href="#">Ajuda</a></li>
-            <li><a href="#">Termos e condições</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#politicas">Políticas de privacidade</a></li>
+            <li><a href="#ajuda">Ajuda</a></li>
+            <li><a href="#termos">Termos e condições</a></li>
             <li><a href="#contato">Contato</a></li>
           </ul>
         </FooterColumn>
@@ -93,10 +93,10 @@ const ContactInfo = () => {
         <FooterColumn>
           <h3>Sobre Imóveis</h3>
           <ul>
-            <li><a href="#">Casas</a></li>
-            <li><a href="#">Apartamentos</a></li>
-            <li><a href="#">Bairros</a></li>
-            <li><a href="#">Cidade</a></li>
+            <li><a href="#casas">Casas</a></li>
+            <li><a href="#apartamentos">Apartamentos</a></li>
+            <li><a href="#bairros">Bairros</a></li>
+            <li><a href="#cidade">Cidade</a></li>
           </ul>
         </FooterColumn>
 
