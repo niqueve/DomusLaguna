@@ -3,6 +3,8 @@ import React from "react";
 import styled from "styled-components";
 import Form from "./Form";
 import Carousel from "./Carousel";
+import Map from "./Map";
+import TroggleView from "./ToggleView";
 
 
 const imagens = [
@@ -21,7 +23,13 @@ const HeroSection = () => {
     return (
         <HeroDiv>
             <Form />
-            <Carousel images={imagens} />
+            <TroggleView
+                firstView={<Carousel images={imagens} />}
+                secondView={<Map />}
+                firstLabel="Ver o carrossel"
+                secondLabel="Ver mapa"
+                defaultView="first"
+            />   
         </HeroDiv>    
     )
 };

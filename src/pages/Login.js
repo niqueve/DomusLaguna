@@ -1,6 +1,8 @@
 
 import React, {useState} from "react";
 import styled from "styled-components";
+import Header from "../components/HeaderMain";
+import Footer from "../components/Footer";
 
 const Conteiner = styled.div`
     max-width: 400px;
@@ -24,12 +26,16 @@ const Login = ()=>{
     };
 
     return (
-        <Conteiner>
-            <h2>Login</h2>
-            <input type="email" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} />
-            <input type="password" placeholder="Senha" value={senha} onChange={e => setSenha(e.target.value)} />
-            <button onClick={handleLogin}>Entrar</button>
-        </Conteiner>
+        <>
+            <Header />
+            <Conteiner>
+                <h2>Login</h2>
+                <input type="email" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} />
+                <input type="password" placeholder="Senha" value={senha} onChange={e => setSenha(e.target.value)} />
+                <button onClick={handleLogin}>Entrar</button>
+            </Conteiner>
+            <Footer />
+        </>
     );
 };
 
