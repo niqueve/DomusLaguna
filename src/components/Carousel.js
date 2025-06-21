@@ -10,7 +10,7 @@ const Container = styled.div`
 
 const Slide = styled.img`
     width: 100%;
-    height: 350px;
+    height: 60vh;
     object-fit: cover;
     transition: all 1s ease-in-out;
 `;

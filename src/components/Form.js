@@ -1,6 +1,7 @@
 
 import React, {useState} from "react";
 import styled from "styled-components";
+import StyledButton from "./layout/StyledButton";
 
 const Container = styled.div`
     width: 100%;
@@ -21,24 +22,13 @@ const StyledP = styled.p`
     padding: 0.25rem;
 `;
 
-const StyledButton = styled.button`
-    cursor: pointer;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    background-color: #2E8B57;
-    color: white;
-    font-size: 1em;
-    transition: background-color 0.3s ease;
-`;
-
 const StyledForm = styled.div`
     display: flex;
     flex-direction: column;
     max-width: 400px;
     gap: 2rem;
     padding: 0.5rem;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 5px;
     width: 100%;
     margin: 1rem;

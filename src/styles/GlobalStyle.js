@@ -2,6 +2,7 @@ import {createGlobalStyle} from 'styled-components';
 
 const GlobalStyle = createGlobalStyle `
 
+
 * {
   margin: 0;
   padding: 0;
@@ -10,13 +11,32 @@ const GlobalStyle = createGlobalStyle `
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
   background-color: #ffffff;
   color: #333;
+}
+
+main {
+  flex: 1;
 }
 
 a{
   text-decoration: none;
 }
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fffde9;
+  padding: 10px 40px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
 
 .navbar {
   display: flex;
@@ -48,6 +68,8 @@ a{
   text-decoration: none;
 }
 
+
+
 .logo {
   width: 50px;
   height: 50px;
@@ -64,6 +86,17 @@ a{
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
+}
+
+.login-box {
+  background-color: transparent;
+  border: 2px solid #d0ebec;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: #fffde9;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0px 4px 4px #00000040;
 }
 
 .hero-img {
@@ -128,6 +161,14 @@ main {
 }
 
 
+footer {
+  background-color: #264653;
+  color: #fffde9;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
 .logo {
   width: 36px;
   height: 36px;
@@ -179,6 +220,7 @@ main {
   cursor: pointer;
   color: #000;
 }
+
 
 
 @media (max-width: 768px) {
