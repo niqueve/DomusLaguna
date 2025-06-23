@@ -153,7 +153,7 @@ header {
 main {
   position: relative;
   width: 100%;
-  min-height: 70vh;
+  min-height: 20vh;
   overflow: hidden;
   display: flex;
   justify-content: center;

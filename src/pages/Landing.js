@@ -6,22 +6,21 @@ import HeroSection from "../components/HeroSection";
 import ContactInfo from '../components/ContactInfo';
 
 
-
-const Main = styled.main `
-    margin: 0;
+const Main = styled.main`
+  margin: 0;
 `;
 
 const Landing = () => {
-    return(
-        <>
-            <Header />
-            <HeroSection />
-            <Main>
-                <ContactInfo />
-            </Main>
-            <Footer />
-        </>    
-    )
+  return (
+    <>
+      <Header />
+      <HeroSection />
+      <Main>
+        <ContactInfo />
+      </Main>
+      <Footer />
+    </>
+  );
 }
 
 export default Landing;

@@ -1,30 +1,28 @@
-// src/components/ContactInfo.js
-
 import React from "react";
 import styled from "styled-components";
 
 const StyledContact = styled.footer`
-    width: 100%;
-    background-color: #2E8B57;
-    color: white;
-    padding: 40px 5%;
-    margin-bottom: 0;
-    margin-top: auto;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  background-color: #2E8B57;
+  color: white;
+  padding: 10px 3%;     
+  margin-bottom: 0;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;   
 `;
 
 const FooterContent = styled.div`
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1700px;
   width: 100%;
-  gap: 30px;
+  gap: 50px;            
 
   @media (max-width: 768px) {
     flex-direction: column;
-    gap: 40px;
+    gap: 25px;          
   }
 `;
 
@@ -32,8 +30,8 @@ const FooterColumn = styled.div`
   flex: 1 1 200px;
 
   h3 {
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
+    font-size: 1rem;     
+    margin-bottom: 0.6rem;
     color: #fff;
   }
 
@@ -41,14 +39,15 @@ const FooterColumn = styled.div`
   address,
   li,
   a {
-    font-size: 0.95rem;
+    font-size: 0.8rem;   
     color: #ddd;
-    line-height: 1.6;
+    line-height: 1.4;
   }
 
   ul {
     list-style: none;
     padding: 0;
+    margin: 0;
   }
 
   a {

@@ -9,10 +9,14 @@ const Container = styled.div`
 `;
 
 const Slide = styled.img`
+   
     width: 100%;
     height: 60vh;
     object-fit: cover;
     transition: all 1s ease-in-out;
+    display: block;
+
+
 `;
 
 const Dots = styled.div`
