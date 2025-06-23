@@ -7,7 +7,8 @@ const Container = styled.div`
     width: 100%;
     max-width: 600px;
     overflow: hidden;
-    padding: 3rem;
+    padding: 8rem;
+    margin-left: 50px;
 `;
 
 const StyledH2 = styled.h2`
