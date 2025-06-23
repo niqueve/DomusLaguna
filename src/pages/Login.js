@@ -185,7 +185,7 @@ const Login = () => {
             </Checkdiv>
             <StyledButton type="submit">Entrar</StyledButton>
             <ExtraLinks>
-              <a href="#">Esqueci minha senha</a>
+              <a href="#esqueci">Esqueci minha senha</a>
               <a href="/register">Criar uma conta</a>
             </ExtraLinks>
           </form>

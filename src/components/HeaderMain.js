@@ -17,8 +17,8 @@ const Header = () => {
     return (
         <StyledHeader>
             <div className="navbar-left">
-                <Link to='/home'><img src="../public/Logo.png" alt="Logo" className="logo" /></Link>
-                <span className="site-name"><Link to='/home'>Domus Laguna</Link></span>
+                <Link to='/home'><img src="/Logo.png" alt="Logo" className="logo" /></Link>
+                <Link to='/home'><span className="site-name">Domus Laguna</span></Link>
                 </div>
 
                 <nav className="navbar-right">
@@ -28,10 +28,12 @@ const Header = () => {
                         <a href="#anunciar">Anunciar</a>
                         <a href="#preco">Preço</a>
                         <a href="#links">Links úteis</a>
-                        <Link to="/favoritos">Favoritos</Link>
+                        <Link to="/favorites">Favoritos</Link>
                         <a href="#ajuda">Ajuda</a>
                     </div>
-                    <button className="login-button" onclick="window.location.href='login.html'">Entrar</button>
+                    <Link to='/login'>
+                    <button className="login-button">Entrar</button>
+                    </Link>
 
                     <div className="menu-toggle" id="menu-toggle">☰</div>
                 </nav>
