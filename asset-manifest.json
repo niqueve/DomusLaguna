@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/DomusLaguna/static/js/main.f95c82cf.js",
+    "main.js": "/DomusLaguna/static/js/main.8eebd038.js",
     "static/media/casa3.jpeg": "/DomusLaguna/static/media/casa3.1dab2d8fdd41e6087e72.jpeg",
     "static/media/casa2.jpeg": "/DomusLaguna/static/media/casa2.d4c00826f8282bee870c.jpeg",
     "index.html": "/DomusLaguna/index.html",
-    "main.f95c82cf.js.map": "/DomusLaguna/static/js/main.f95c82cf.js.map"
+    "main.8eebd038.js.map": "/DomusLaguna/static/js/main.8eebd038.js.map"
   },
   "entrypoints": [
-    "static/js/main.f95c82cf.js"
+    "static/js/main.8eebd038.js"
   ]
 }
