@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import Header from "../components/HeaderMain";
 import Footer from "../components/Footer";
 
@@ -185,8 +186,8 @@ const Login = () => {
             </Checkdiv>
             <StyledButton type="submit">Entrar</StyledButton>
             <ExtraLinks>
-              <a href="#esqueci">Esqueci minha senha</a>
-              <a href="/register">Criar uma conta</a>
+              <Link to="/recover">Esqueci minha senha</Link>
+              <Link to="/register">Criar uma conta</Link>
             </ExtraLinks>
           </form>
         </Conteiner>

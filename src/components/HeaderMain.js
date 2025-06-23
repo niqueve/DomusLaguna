@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <StyledHeader>
             <div className="navbar-left">
-                <Link to='/home'><img src="/Logo.png" alt="Logo" className="logo" /></Link>
+                <Link to='/home'><img src={`${process.env.PUBLIC_URL}/Logo.png`} alt="Logo" className="logo" /></Link>
                 <Link to='/home'><span className="site-name">Domus Laguna</span></Link>
                 </div>
 
